@@ -5,7 +5,7 @@ import curses
 from curses import KEY_RIGHT, KEY_LEFT, KEY_UP, KEY_DOWN
 from random import randint
 
-
+#nuevo comentario
 curses.initscr()
 win = curses.newwin(20, 60, 0, 0)
 win.keypad(1)
@@ -14,6 +14,7 @@ curses.curs_set(0)
 win.border(0)
 win.nodelay(1)
 
+# hoy es domingo
 key = KEY_RIGHT                                                    # Initializing values
 score = 0
 
